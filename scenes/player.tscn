@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv2jhn7v8sqgr"]
+
+[ext_resource type="Texture2D" uid="uid://dvyj3k2pc0ok3" path="res://assets/PNG/playerShip1_red.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://bbws7qmsbuyu4" path="res://scripts/player.gd" id="1_g2els"]
+
+[node name="Player" type="CharacterBody2D"]
+z_index = 1
+collision_mask = 4
+motion_mode = 1
+script = ExtResource("1_g2els")
+
+[node name="Laser_Container" type="Node" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+rotation = 1.5708
+texture = ExtResource("1_3vyb7")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+rotation = 1.5708
+polygon = PackedVector2Array(7.99987, -37, -8.00013, -37, -12, -12, -36, 2.00013, -45, -5.99984, -49, -5.99982, -49, 4.00018, -47.9999, 25.0002, -40.9999, 21.0001, -22.9999, 26.0001, -13.9999, 27.0001, -6.99987, 37, 8.00013, 37, 14.0001, 27.9999, 41.0001, 21.9999, 46.0001, 23.9998, 50, -6.00018, 45, -6.00016, 36, 1.99987, 13, -12)
+
+[node name="Laser_Timer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
