@@ -1,7 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://dv2jhn7v8sqgr"]
+[gd_scene load_steps=8 format=3 uid="uid://dv2jhn7v8sqgr"]
 
 [ext_resource type="Texture2D" uid="uid://dvyj3k2pc0ok3" path="res://assets/PNG/playerShip1_red.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://bbws7qmsbuyu4" path="res://scripts/player.gd" id="1_g2els"]
+
+[sub_resource type="Gradient" id="Gradient_g2els"]
+offsets = PackedFloat32Array(0, 0.518519, 1)
+colors = PackedColorArray(1, 0.9, 0, 1, 1, 0.65, 0, 1, 1, 0, 0.0166664, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_qhqgy"]
+gradient = SubResource("Gradient_g2els")
+
+[sub_resource type="Curve" id="Curve_dqkch"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_qlg0r"]
+curve = SubResource("Curve_dqkch")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_tuyoq"]
+particle_flag_disable_z = true
+spread = 0.0
+gravity = Vector3(-200, 0, 0)
+radial_accel_min = -2.23517e-06
+radial_accel_max = -2.23517e-06
+scale_min = 7.0
+scale_max = 7.0
+scale_curve = SubResource("CurveTexture_qlg0r")
+color_ramp = SubResource("GradientTexture1D_qhqgy")
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 1
@@ -17,9 +42,26 @@ rotation = 1.5708
 texture = ExtResource("1_3vyb7")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
 rotation = 1.5708
 polygon = PackedVector2Array(7.99987, -37, -8.00013, -37, -12, -12, -36, 2.00013, -45, -5.99984, -49, -5.99982, -49, 4.00018, -47.9999, 25.0002, -40.9999, 21.0001, -22.9999, 26.0001, -13.9999, 27.0001, -6.99987, 37, 8.00013, 37, 14.0001, 27.9999, 41.0001, 21.9999, 46.0001, 23.9998, 50, -6.00018, 45, -6.00016, 36, 1.99987, 13, -12)
 
 [node name="Laser_Timer" type="Timer" parent="."]
 wait_time = 0.5
 one_shot = true
+
+[node name="ExhaustParticle" type="GPUParticles2D" parent="."]
+position = Vector2(-27, -45)
+amount = 50
+lifetime = 0.5
+collision_base_size = 0.0
+trail_enabled = true
+process_material = SubResource("ParticleProcessMaterial_tuyoq")
+
+[node name="ExhaustParticle2" type="GPUParticles2D" parent="."]
+position = Vector2(-27, 45)
+amount = 50
+lifetime = 0.5
+collision_base_size = 0.0
+trail_enabled = true
+process_material = SubResource("ParticleProcessMaterial_tuyoq")

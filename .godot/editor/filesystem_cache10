@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755590686
+::res://::1756057077
 icon.svg::CompressedTexture2D/CompressedTexture2D::7823675109812013185::1754753430::1754753451::1::::<><><>0<>0<>1f3b1c37fb5a5edc48ae9b7484c3d577<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1754753597
+::res://assets/::1756051838
 license.txt::TextFile/TextFile::-1::1390991476::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D/CompressedTexture2D::5183356402157081367::1390991677::1754753597::1::::<><><>0<>0<>6ab9386db91124b77dce357eecb52f57<>res://.godot/imported/preview.png-a680f03a9d5180282694828f1a21451f.ctex::
 sample.png::CompressedTexture2D/CompressedTexture2D::4860986191344621412::1390992093::1754753597::1::::<><><>0<>0<>161855926694cd25e1383037c1d6d559<>res://.godot/imported/sample.png-e927139e96245ea5d425f1da42b62e4a.ctex::
@@ -20,6 +20,8 @@ sfx_shieldDown.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::82043936775281273
 sfx_shieldUp.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::7508891595330191858::1390990653::1754753596::1::::<><><>0<>0<>d2da8f2cf023be9d598cf34b0ab738e4<>res://.godot/imported/sfx_shieldUp.ogg-3be4e3d1edebadb274a60c9a18738b13.oggvorbisstr::
 sfx_twoTone.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::7095058621791644653::1390990346::1754753596::1::::<><><>0<>0<>9fc082680ca4314ce27ab95a9fd393e2<>res://.godot/imported/sfx_twoTone.ogg-c667217893706038b1a5c920aa53e2b9.oggvorbisstr::
 sfx_zap.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::3426994955269005171::1390990335::1754753596::1::::<><><>0<>0<>30dda7a7bd555e4395d2935d1c7824cf<>res://.godot/imported/sfx_zap.ogg-309c17bdd834da1fa9c1464282f4b9ae.oggvorbisstr::
+::res://assets/Fonts/::1756051909
+Kenney Blocks.ttf::FontFile/FontFile::4138093728658211552::1453242668::1756051909::1::::<><><>0<>0<>ec31dc70e6e8d1ae4f63e971c2fd2049<>res://.godot/imported/Kenney Blocks.ttf-64632e973be3cbbb5de78d891890ee05.fontdata::
 ::res://assets/PNG/::1754753597
 playerShip1_blue.png::CompressedTexture2D/CompressedTexture2D::680743923973559417::1390988460::1754753597::1::::<><><>0<>0<>e925ee8dfcb6988bf4f50d10ffd4a6ff<>res://.godot/imported/playerShip1_blue.png-92237cfcf64db4f678b0d0de1236dc63.ctex::
 playerShip1_green.png::CompressedTexture2D/CompressedTexture2D::2126748122607316397::1390988460::1754753597::1::::<><><>0<>0<>f38be7dd0ff8680a6b4736cf3d9af83c<>res://.godot/imported/playerShip1_green.png-b0521797598d8c4961dd63258de6a452.ctex::
@@ -328,16 +330,17 @@ sheet.png::CompressedTexture2D/CompressedTexture2D::8021878453404616128::1390989
 sheet.xml::TextFile/TextFile::-1::1390989905::0::1::::<><><>0<>0<><>::
 ::res://assets/Vector/::1754753598
 sheet.svg::CompressedTexture2D/CompressedTexture2D::7851267720679277059::1390989868::1754753598::1::::<><><>0<>0<>ea7c7a98e4574b8e4363a4eda8a1cb41<>res://.godot/imported/sheet.svg-68da1f732c1ee304a3801470de2a54d7.ctex::
-::res://scenes/::1754884905
-enemy_1.tscn::PackedScene::5164062481963173152::1754884905::0::1::::<><><>0<>0<><>::uid://ne7ryhb0lbvp::::res://scripts/enemy_1.gd<>uid://dpba6g0wvdl7x::::res://assets/PNG/Enemies/enemyBlack3.png
-enemy_spawner.tscn::PackedScene::3777748652082208948::1754884905::0::1::::<><><>0<>0<><>::uid://bsbvqp25rfku5::::res://scripts/enemy_spawner.gd
-game.tscn::PackedScene::7506162256286619730::1754884905::0::1::::<><><>0<>0<><>::uid://n6toftri2j06::::res://scripts/game.gd<>uid://bt2776otohs8s::::res://scenes/enemy_spawner.tscn<>uid://b4hs4bqhd7yyv::::res://assets/Backgrounds/darkPurple.png<>uid://dv2jhn7v8sqgr::::res://scenes/player.tscn<>uid://duoc3yc7qwhsn::::res://scripts/enemy_boundary.gd
-laser_red.tscn::PackedScene::1578841083170465344::1754884905::0::1::::<><><>0<>0<><>::uid://gfq16qo7sbsp::::res://scripts/laser_red.gd<>uid://dsw53nst6by4g::::res://assets/PNG/Lasers/laserRed04.png
-player.tscn::PackedScene::8689525653566091997::1754884905::0::1::::<><><>0<>0<><>::uid://dvyj3k2pc0ok3::::res://assets/PNG/playerShip1_red.png<>uid://bbws7qmsbuyu4::::res://scripts/player.gd
-::res://scripts/::1754884905
-enemy_1.gd::GDScript::922687052028882597::1754884540::0::1::::<>Area2D<><>0<>0<><>::
-enemy_boundary.gd::GDScript::8592112913737858365::1754877687::0::1::::<>Area2D<><>0<>0<><>::
-enemy_spawner.gd::GDScript::3653188707428278438::1754884218::0::1::::<>Node2D<><>0<>0<><>::
-game.gd::GDScript::977629594399705421::1754884905::0::1::::<>Node2D<><>0<>0<><>::
-laser_red.gd::GDScript::432474506744576967::1754877977::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript::2503176748926445333::1754884825::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/::1756056410
+enemy_1.tscn::PackedScene::5164062481963173152::1756051071::0::1::::<><><>0<>0<><>::uid://ne7ryhb0lbvp::::res://scripts/enemy_1.gd<>uid://dpba6g0wvdl7x::::res://assets/PNG/Enemies/enemyBlack3.png
+enemy_spawner.tscn::PackedScene::3777748652082208948::1756051071::0::1::::<><><>0<>0<><>::uid://bsbvqp25rfku5::::res://scripts/enemy_spawner.gd
+game.tscn::PackedScene::7506162256286619730::1756056410::0::1::::<><><>0<>0<><>::uid://n6toftri2j06::::res://scripts/game.gd<>uid://bt2776otohs8s::::res://scenes/enemy_spawner.tscn<>uid://b4hs4bqhd7yyv::::res://assets/Backgrounds/darkPurple.png<>uid://dv2jhn7v8sqgr::::res://scenes/player.tscn<>uid://k5fv1fxgjy51::::res://scenes/hud.tscn<>uid://duoc3yc7qwhsn::::res://scripts/enemy_boundary.gd
+hud.tscn::PackedScene::764162230022493374::1756056410::0::1::::<><><>0<>0<><>::uid://by7r2f16o2voy::::res://assets/Fonts/Kenney Blocks.ttf
+laser_red.tscn::PackedScene::1578841083170465344::1756051071::0::1::::<><><>0<>0<><>::uid://gfq16qo7sbsp::::res://scripts/laser_red.gd<>uid://dsw53nst6by4g::::res://assets/PNG/Lasers/laserRed04.png
+player.tscn::PackedScene::8689525653566091997::1756056410::0::1::::<><><>0<>0<><>::uid://dvyj3k2pc0ok3::::res://assets/PNG/playerShip1_red.png<>uid://bbws7qmsbuyu4::::res://scripts/player.gd
+::res://scripts/::1756053399
+enemy_1.gd::GDScript::922687052028882597::1756050755::0::1::::<>Area2D<><>0<>0<><>::
+enemy_boundary.gd::GDScript::8592112913737858365::1756050903::0::1::::<>Area2D<><>0<>0<><>::
+enemy_spawner.gd::GDScript/GDScript::3653188707428278438::1754884218::0::1::::<>Node2D<><>0<>0<><>::
+game.gd::GDScript::977629594399705421::1756053399::0::1::::<>Node2D<><>0<>0<><>::
+laser_red.gd::GDScript/GDScript::432474506744576967::1754877977::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::2503176748926445333::1754884825::0::1::::<>CharacterBody2D<><>0<>0<><>::
