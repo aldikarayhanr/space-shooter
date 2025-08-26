@@ -1,5 +1,8 @@
-GPUParticles2D
+Button
 Label
+Panel
+PanelContainer
+GPUParticles2D
 CanvasLayer
 Timer
 CollisionShape2D

@@ -17,14 +17,14 @@ script = ExtResource("1_iywne")
 
 [node name="HUD" parent="UI" instance=ExtResource("2_p57ef")]
 
-[node name="Enemy_Spawner" parent="." instance=ExtResource("1_lnu2h")]
-
 [node name="TextureRect" type="TextureRect" parent="."]
 z_index = -99
 offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("1_yqjtg")
 stretch_mode = 1
+
+[node name="Enemy_Spawner" parent="." instance=ExtResource("1_lnu2h")]
 
 [node name="Player" parent="." instance=ExtResource("2_lnu2h")]
 position = Vector2(37.5, 324)

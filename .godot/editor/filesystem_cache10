@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1756057077
+::res://::1756143317
 icon.svg::CompressedTexture2D/CompressedTexture2D::7823675109812013185::1754753430::1754753451::1::::<><><>0<>0<>1f3b1c37fb5a5edc48ae9b7484c3d577<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1756051838
 license.txt::TextFile/TextFile::-1::1390991476::0::1::::<><><>0<>0<><>::
@@ -330,17 +330,19 @@ sheet.png::CompressedTexture2D/CompressedTexture2D::8021878453404616128::1390989
 sheet.xml::TextFile/TextFile::-1::1390989905::0::1::::<><><>0<>0<><>::
 ::res://assets/Vector/::1754753598
 sheet.svg::CompressedTexture2D/CompressedTexture2D::7851267720679277059::1390989868::1754753598::1::::<><><>0<>0<>ea7c7a98e4574b8e4363a4eda8a1cb41<>res://.godot/imported/sheet.svg-68da1f732c1ee304a3801470de2a54d7.ctex::
-::res://scenes/::1756056410
-enemy_1.tscn::PackedScene::5164062481963173152::1756051071::0::1::::<><><>0<>0<><>::uid://ne7ryhb0lbvp::::res://scripts/enemy_1.gd<>uid://dpba6g0wvdl7x::::res://assets/PNG/Enemies/enemyBlack3.png
-enemy_spawner.tscn::PackedScene::3777748652082208948::1756051071::0::1::::<><><>0<>0<><>::uid://bsbvqp25rfku5::::res://scripts/enemy_spawner.gd
-game.tscn::PackedScene::7506162256286619730::1756056410::0::1::::<><><>0<>0<><>::uid://n6toftri2j06::::res://scripts/game.gd<>uid://bt2776otohs8s::::res://scenes/enemy_spawner.tscn<>uid://b4hs4bqhd7yyv::::res://assets/Backgrounds/darkPurple.png<>uid://dv2jhn7v8sqgr::::res://scenes/player.tscn<>uid://k5fv1fxgjy51::::res://scenes/hud.tscn<>uid://duoc3yc7qwhsn::::res://scripts/enemy_boundary.gd
-hud.tscn::PackedScene::764162230022493374::1756056410::0::1::::<><><>0<>0<><>::uid://by7r2f16o2voy::::res://assets/Fonts/Kenney Blocks.ttf
-laser_red.tscn::PackedScene::1578841083170465344::1756051071::0::1::::<><><>0<>0<><>::uid://gfq16qo7sbsp::::res://scripts/laser_red.gd<>uid://dsw53nst6by4g::::res://assets/PNG/Lasers/laserRed04.png
-player.tscn::PackedScene::8689525653566091997::1756056410::0::1::::<><><>0<>0<><>::uid://dvyj3k2pc0ok3::::res://assets/PNG/playerShip1_red.png<>uid://bbws7qmsbuyu4::::res://scripts/player.gd
-::res://scripts/::1756053399
-enemy_1.gd::GDScript::922687052028882597::1756050755::0::1::::<>Area2D<><>0<>0<><>::
-enemy_boundary.gd::GDScript::8592112913737858365::1756050903::0::1::::<>Area2D<><>0<>0<><>::
+::res://scenes/::1756126338
+enemy_1.tscn::PackedScene/PackedScene::5164062481963173152::1756051071::0::1::::<><><>0<>0<><>::uid://ne7ryhb0lbvp::::res://scripts/enemy_1.gd<>uid://dpba6g0wvdl7x::::res://assets/PNG/Enemies/enemyBlack3.png
+enemy_spawner.tscn::PackedScene/PackedScene::3777748652082208948::1756051071::0::1::::<><><>0<>0<><>::uid://bsbvqp25rfku5::::res://scripts/enemy_spawner.gd
+game.tscn::PackedScene::7506162256286619730::1756126338::0::1::::<><><>0<>0<><>::uid://n6toftri2j06::::res://scripts/game.gd<>uid://bt2776otohs8s::::res://scenes/enemy_spawner.tscn<>uid://b4hs4bqhd7yyv::::res://assets/Backgrounds/darkPurple.png<>uid://dv2jhn7v8sqgr::::res://scenes/player.tscn<>uid://k5fv1fxgjy51::::res://scenes/hud.tscn<>uid://duoc3yc7qwhsn::::res://scripts/enemy_boundary.gd
+game_over.tscn::PackedScene::8531760657228871305::1756126338::0::1::::<><><>0<>0<><>::uid://d1qgfgtn5xxqb::::res://scripts/game_over.gd<>uid://by7r2f16o2voy::::res://assets/Fonts/Kenney Blocks.ttf
+hud.tscn::PackedScene::764162230022493374::1756126338::0::1::::<><><>0<>0<><>::uid://by7r2f16o2voy::::res://assets/Fonts/Kenney Blocks.ttf
+laser_red.tscn::PackedScene/PackedScene::1578841083170465344::1756051071::0::1::::<><><>0<>0<><>::uid://gfq16qo7sbsp::::res://scripts/laser_red.gd<>uid://dsw53nst6by4g::::res://assets/PNG/Lasers/laserRed04.png
+player.tscn::PackedScene::8689525653566091997::1756126338::0::1::::<><><>0<>0<><>::uid://dvyj3k2pc0ok3::::res://assets/PNG/playerShip1_red.png<>uid://bbws7qmsbuyu4::::res://scripts/player.gd
+::res://scripts/::1756125856
+enemy_1.gd::GDScript/GDScript::922687052028882597::1756050755::0::1::::<>Area2D<><>0<>0<><>::
+enemy_boundary.gd::GDScript/GDScript::8592112913737858365::1756050903::0::1::::<>Area2D<><>0<>0<><>::
 enemy_spawner.gd::GDScript/GDScript::3653188707428278438::1754884218::0::1::::<>Node2D<><>0<>0<><>::
-game.gd::GDScript::977629594399705421::1756053399::0::1::::<>Node2D<><>0<>0<><>::
+game.gd::GDScript/GDScript::977629594399705421::1756125856::0::1::::<>Node2D<><>0<>0<><>::
+game_over.gd::GDScript/GDScript::9017575605782291317::1756125307::0::1::::<>Control<><>0<>0<><>::
 laser_red.gd::GDScript/GDScript::432474506744576967::1754877977::0::1::::<>Area2D<><>0<>0<><>::
 player.gd::GDScript/GDScript::2503176748926445333::1754884825::0::1::::<>CharacterBody2D<><>0<>0<><>::
